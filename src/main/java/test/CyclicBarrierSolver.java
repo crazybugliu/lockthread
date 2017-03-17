@@ -4,6 +4,9 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * 参考类CyclicBarrier的 java api 说明： http://tool.oschina.net/apidocs/apidoc?api=jdk-zh
+ */
 class CyclicBarrierSolver {
     final int N;
     final float[][] data;

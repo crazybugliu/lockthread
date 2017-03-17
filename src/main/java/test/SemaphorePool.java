@@ -4,6 +4,7 @@ import java.util.concurrent.Semaphore;
 
 /**
  * 信号量的使用示例
+ * 参考类 Semaphore 的 java api：http://tool.oschina.net/apidocs/apidoc?api=jdk-zh
  */
 class SemaphorePool {
     private static final int MAX_AVAILABLE = 5;

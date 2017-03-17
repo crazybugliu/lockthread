@@ -4,6 +4,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * CLH锁实现
+ * 参考：https://segmentfault.com/a/1190000004935026
  */
 public class CLHLock {
     AtomicReference<QNode> tail;

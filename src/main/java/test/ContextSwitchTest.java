@@ -5,6 +5,7 @@ import java.util.concurrent.locks.LockSupport;
 
 /**
  * 线程上下文切换测试
+ * 参考文章：http://ifeve.com/java-context-switch/
  */
 public final class ContextSwitchTest {
     static final int RUNS = 3;
